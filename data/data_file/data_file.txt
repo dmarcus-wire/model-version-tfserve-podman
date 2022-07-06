@@ -1,0 +1,17 @@
+# Data File
+
+# What is a data file? 
+A data file is any file containing information, but not code; it is only meant to be read or viewed and not executed.
+
+# Data overview
+This data contains 100,000 rows of data across 4 columns that represent a given patients heart rate, temperature, respiration rate, and white blood cell count.
+
+# How the data was generated?
+This data is not real patient data and was generated using Apple Numbers.
+
+# Why the data was generated?
+This data was generated to demonstrate training a baseline classifier for healthcare demonstration.
+
+# What is the intended use of the data?
+
+# What is the vision for the data?
