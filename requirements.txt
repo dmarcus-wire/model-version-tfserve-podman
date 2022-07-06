@@ -1,1 +1,4 @@
-tfx
+tensorflow==2.8.2
+tfx==1.8.0
+grpcio
+google-api-core

@@ -1,7 +1,18 @@
-# model-version-tfserve-podman
-Model versioning with TensorFlow Serving on Podman
+# Project Goal:
 
-Getting started using TensorFlow Serving is with Podman on RHEL.
+Build a basic Tensorflow Pipeline that automatically executes tasks from ingestion to serving. Scenario, uses sythentically generated patient data (Heart Rate, Temperature, Respiratory Rate, White Blood Cell Count) that has been labelled with a 1 (Septic) or 0 (Not-Septic).
+    
+All training steps are executed through the train_pipeline_notebook.ipynb. 
+All post-training steps are executed through the serve_notebook.ipynb. 
+
+[x] pipeline automation using TensorFlow Extended (TFX)
+[x] code development with Jupyter Notebook from Open Data Hub on OpenShift on AWS
+[x] source code management integration with GitHub
+[x] data ingestion with TFX "ExampleGen"
+[x] model training with TFX "Trainer" 
+[x] model deployment with TFX "Pusher"
+[x] model serving with with TFX "TensorFlow Serving" 
+[x] model versioning with pipeline and TensorFlow Serving
 
 ```
 # confirm current root directory setting for the containers
